@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "dev": "react-native run-android",
-    "build": "react-native run-android --variant=release",
+    "dev": "react-native run-ios",
+    "build": "react-native run-ios --variant=release",
     "test": "jest"
   },
   "dependencies": {
